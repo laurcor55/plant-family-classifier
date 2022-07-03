@@ -15,8 +15,10 @@ for first_ind in range(len(inputs)):
 growing_thing = inputs[0]
 leftovers = inputs[1:]
 
-while growing_thing < len(growing)
-  growing_thing = [input]
+while len(leftovers) > 0:
+  for leftover in leftovers:
+    growing_thing.append(leftover)
+  
 
 
 print(output)

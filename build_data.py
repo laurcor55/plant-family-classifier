@@ -50,7 +50,7 @@ def get_species(family_name):
 
 #specie = 'Viola tricolor'
 #description = get_description(specie)
-family_names = ['convolvulaceae']
+family_names = ['brasicaceae']
 for family_name in family_names:
   species = get_species(family_name)
   descriptions = []
